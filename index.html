@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jersey Designer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="designer-container">
+    <h1>Jersey Designer</h1>
+
+    <!-- Tools -->
+    <div class="tools">
+      <h2>Tools</h2>
+      <div draggable="true" class="tool-item" data-type="text">Add Text</div>
+      <div draggable="true" class="tool-item" data-type="image">Add Logo</div>
+      <input type="color" id="colorPicker" title="Choose Jersey Color">
+    </div>
+
+    <!-- Jersey Template -->
+    <div id="jersey-template" class="jersey-template">
+      <p>Drop items here</p>
+    </div>
+
+    <!-- Actions -->
+    <button id="save-design">Save Design</button>
+    <button id="load-design">Load Design</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
